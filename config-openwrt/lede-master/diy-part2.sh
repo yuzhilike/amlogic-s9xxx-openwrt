@@ -48,6 +48,8 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 
 # Apply patch
 # git apply ../config-openwrt/patches/{0001*,0002*}.patch --directory=feeds/luci
+git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
+
 #
 # ------------------------------- Other ends -------------------------------
 
